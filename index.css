@@ -1,8 +1,9 @@
+
 .mainNav {
   padding: 0px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   flex: auto 2 auto;
   line-height: 5px;
   text-decoration: none;
@@ -12,7 +13,9 @@
   display: flex;
   list-style-type: none;
   justify-content: space-between;
-  width: 500px;
+  width: 40vw;
+  flex-shrink: 50%;
+  flex-grow: 100%;
 }
 
 .navLinks a {
@@ -20,10 +23,10 @@
   font-family: Galano Grotesque, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-style: 16px;
+  font-size: 90%;
   line-height: 25px;
   color: #131d3b;
-  font-: 16px;
+  font: 16px;
 }
 
 .navLinks a:hover {
@@ -31,9 +34,11 @@
 }
 
 .Title {
-  display: block;
-  font-size: 30px;
+  display: flex;
   padding: -50px;
+  font-size: 200%;
+  align-items: center;
+  justify-content: center;
   margin: -10;
   color: black;
   padding-bottom: 0;
@@ -41,8 +46,10 @@
   font-weight: 800;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
 }
 .subTitle {
+  letter-spacing: 1px;
   font-style: 15px;
   font-size: 20px;
   margin: 12px;
@@ -77,6 +84,12 @@
   line-height: 28px;
   font-size: 20px;
 }
+
 a {
   text-decoration: none;
 }
+
+@media only screen and (min-width: 900px) {
+  .Title {
+    display: flex;
+  }
