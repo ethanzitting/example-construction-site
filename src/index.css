@@ -1,3 +1,86 @@
+.mainNav {
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: auto 2 auto;
+    line-height: 5px;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    font-family: Galano Grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 25px;
+    color: #131d3b;
+    font-: 16px;
+}
+
+.navLinks a:hover {
+    color: #ec1c24;
+}
+
+.Title {
+    display: block;
+    font-size: 30px;
+    padding: -50px;
+    margin: -10;
+    color: black;
+    padding-bottom: 0;
+    text-decoration: none !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subTitle {
+    font-style: 15px;
+    font-size: 20px;
+    margin: 12px;
+    padding: 10px 0;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a5a7aa;
+    position: absolute;
+}
+
+.getQuote {
+    display: flex;
+    position: static;
+    border: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec1c24;
+    color: #f2f2f5;
+    width: 167px;
+    height: 56px;
+    left: 986px;
+    top: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    font-family: Galano Grotesque;
+    font-style: normal;
+    font-weight: 800;
+    font-style: 18px;
+    line-height: 28px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+
 .jumbotron {
     width: 100vw;
     height: 600px;
@@ -66,3 +149,4 @@
 
     background: #EC1C24;
 }
+
