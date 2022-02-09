@@ -1,6 +1,8 @@
+Requirements:
+- Node 16+
+
 Installation:
  - Copy the repo to your machine.
- - Initialize an npm instance in your project directory with `npm init -y`
  - Install the dependencies with `npm install`
  - When changing javascript or scss, run `npx webpack build` to see it in the browser.
 
