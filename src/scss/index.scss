@@ -1,3 +1,5 @@
+@use './reset.scss';
+
 .mainNav {
     padding: 0px;
     display: flex;
@@ -92,6 +94,7 @@ a {
     .Title {
         display: flex;
     }
+}
 
 .jumbotron {
     width: 100vw;
@@ -161,4 +164,3 @@ a {
 
     background: #EC1C24;
 }
-
