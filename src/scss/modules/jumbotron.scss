@@ -5,64 +5,64 @@
     z-index: 1;
     color: #F2F3F5;
     overflow: hidden
-}
 
-.jumbotron-image {
-    width: auto;
-    height: 100%;
-    z-index: 1;
-}
+    img {
+        width: auto;
+        height: 100%;
+        z-index: 1;
+    }
 
-.jumbotron-shadow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 2
-}
+    .shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 2
+    }
 
-.jumbotron-text-block {
-    position: absolute;
-    top: calc(50% - 98px);
-    left: calc(50% - 300px);
-    z-index: 3;
-    height: 196px;
-    width: 600px;
-    display: flex;
-    flex-direction: column;
+    .text-block {
+        position: absolute;
+        top: calc(50% - 98px);
+        left: calc(50% - 300px);
+        z-index: 3;
+        height: 196px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
 
-    font-family: Arial;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 52px;
-    line-height: 81px;
-    text-align: center;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 81px;
+        text-align: center;
 
-    color: #F2F3F5;
-}
+        color: #F2F3F5;
+    }
 
-.jumbotron-text-content {
-    margin-bottom: 80px;
-}
+    .text-content {
+        margin-bottom: 80px;
+    }
 
-.jumbotron-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 36px;
-    width: 167px;
-    height: 56px;
-    margin: 0 auto;
+    button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 36px;
+        width: 167px;
+        height: 56px;
+        margin: 0 auto;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    border: none;
-    cursor: pointer;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        border: none;
+        cursor: pointer;
 
-    background: #EC1C24;
+        background: #EC1C24;
+    }
 }
