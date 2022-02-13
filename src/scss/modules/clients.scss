@@ -5,13 +5,14 @@
 .clients {
   display: flex;
   justify-content: space-around;
+  background-color: black;
 }
 .clientCard {
   display: flex;
   flex-direction: column;
   width: 140px;
   height: 180px;
-  background-color: #f2f3f5;
+  background-color: white;
   justify-content: center;
 }
 
