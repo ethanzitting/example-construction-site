@@ -1,0 +1,21 @@
+.clients * {
+  z-index: 1;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+}
+.clientCard {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 180px;
+  background-color: #f2f3f5;
+  justify-content: center;
+}
+
+.logo {
+  border-radius: 500px;
+  align-self: center;
+}

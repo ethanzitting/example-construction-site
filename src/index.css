@@ -1,0 +1,408 @@
+body {
+  z-index: 1;
+}
+.mainNav {
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex: auto 2 auto;
+  line-height: 5px;
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 40vw;
+  flex-shrink: 50%;
+  flex-grow: 100%;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-family: Galano Grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90%;
+  line-height: 25px;
+  color: #131d3b;
+  font: 16px;
+}
+
+.navLinks a:hover {
+  color: #ec1c24;
+}
+
+.Title {
+  display: flex;
+  padding: -50px;
+  font-size: 200%;
+  align-items: center;
+  justify-content: center;
+  margin: -10;
+  color: black;
+  padding-bottom: 0;
+  text-decoration: none !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+.subTitle {
+  letter-spacing: 1px;
+  font-style: 15px;
+  font-size: 20px;
+  margin: 12px;
+  padding: 10px 0;
+  margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a5a7aa;
+  position: absolute;
+}
+
+.getQuote {
+  display: flex;
+  position: static;
+  border: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec1c24;
+  color: #f2f2f5;
+  width: 167px;
+  height: 56px;
+  left: 986px;
+  top: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 800;
+  font-style: 18px;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.jumbotron {
+  width: 100vw;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+  color: #f2f3f5;
+  overflow: hidden;
+}
+
+.jumbotron-image {
+  width: auto;
+  height: 100%;
+  z-index: 1;
+}
+
+.jumbotron-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.jumbotron-text-block {
+  position: absolute;
+  top: calc(50% - 98px);
+  left: calc(50% - 300px);
+  z-index: 3;
+  height: 196px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 81px;
+  text-align: center;
+
+  color: #f2f3f5;
+}
+
+.jumbotron-text-content {
+  margin-bottom: 80px;
+}
+
+.jumbotron-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 36px;
+  width: 167px;
+  height: 56px;
+  margin: 0 auto;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  border: none;
+  cursor: pointer;
+
+  background: #ec1c24;
+}
+.industialServices > h2 {
+  display: block;
+  font-size: 42px;
+  margin: 30px;
+  color: #131d3b;
+  text-align: center;
+}
+
+.sliderNav {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex: 1 2;
+}
+
+.blackCard {
+  display: flex;
+  background-color: #131d3b;
+  font-size: 20px;
+  color: white;
+  flex: 50%;
+  margin-right: 10px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.orangeCard {
+  display: flex;
+  background-color: #ec1c24;
+  flex-grow: 2;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.articals {
+  display: flex;
+  justify-content: space-around;
+}
+
+.articalCard {
+  width: 283px;
+  height: 144px;
+  color: #131d3b;
+  margin: 30px;
+}
+
+.articalCard > h3 {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.artical-expand {
+  display: block;
+  color: #ec1c24;
+  text-decoration: none;
+  margin-top: 24px;
+  text-transform: uppercase;
+}
+
+.founders {
+  position: relative;
+  background-color: #131d3b;
+  width: 100%;
+  height: 800px;
+  margin-top: 30px;
+}
+
+.foundersHeader {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 30px;
+  font-weight: 500px;
+}
+
+.background {
+  position: absolute;
+  background-color: #f2f2f5;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  z-index: 4 !important;
+  left: 0;
+  top: 20%;
+}
+
+.foundersCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  z-index: 5;
+  gap: 30px;
+}
+
+.foundersCard * {
+  z-index: 5;
+}
+
+.foundersImage {
+  border-radius: 180px;
+  left: 257px;
+  z-index: 5;
+}
+
+.foundersName {
+  position: relative;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+}
+
+.foundersTitle {
+  font-size: 18px;
+}
+
+.contact-btn {
+  background-color: #f2f2f5;
+  border-color: #ec1c24;
+  border-width: 3px;
+  width: 217px;
+  height: 56px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.projects-btn {
+  background-color: #ec1c24;
+  width: 217px;
+  height: 56px;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.clients * {
+  z-index: 1;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+}
+.clientCard {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 180px;
+  background-color: #f2f3f5;
+  justify-content: center;
+}
+
+.logo {
+  border-radius: 500px;
+  align-self: center;
+}
+
+
+    <div class="industialServices">
+        <h2>Industrial Services</h2>
+        <div class="sliderNav">
+            <div class="blackCard">
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Ad illum pariatur accusamus necessitatibus velit, tempora deleniti dolore labore quisquam sit. Corporis delectus assumenda hic, atque labore vero sint molestias culpa.</p>
+            </div>
+            <div class="orangeCard"><h1>Engineering</h1></div>
+        </div>
+        <div class="articals">
+            <div class="articalCard">
+                <h3>Mission</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium vel iure expedita nobis, voluptate eum iste ut ullam officiis neque tempora nemo architecto omnis qui delectus nisi dicta aut odio.</p>
+                    <a class="artical-expand" href="#">view more</a>
+            </div>
+            <div class="articalCard">
+                <h3>Vision</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium vel iure expedita nobis, voluptate eum iste ut ullam officiis neque tempora nemo architecto omnis qui delectus nisi dicta aut odio.</p>
+                    <a class="artical-expand" href="#">view more</a>
+            </div>
+            <div class="articalCard">
+                <h3>Culture</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium vel iure expedita nobis, voluptate eum iste ut ullam officiis neque tempora nemo architecto omnis qui delectus nisi dicta aut odio.</p>
+                    <a class="artical-expand" href="#">view more</a>
+            </div>
+        </div>
+    </div>
+    <div class="founders">
+        <h3 class="foundersHeader">Founders</h3>
+        <div class="cards">
+            <div class="foundersCard">
+                <img class="foundersImage" src="https://picsum.photos/200">
+                <h4 class="foundersName">Mr. Ahmed Ismail</h4>
+                <h6 class="foundersTitle">Operations Manager</h6>
+                <button class="contact-btn">Contact</button>
+                <button class="projects-btn">View Projects</button>
+        <div class="background"></div>
+            </div>
+            <div class="foundersCard">
+                <img class="foundersImage" src="https://picsum.photos/200">
+                <h4 class="foundersName">Mr. Ahmed Ismail</h4>
+                <h6 class="foundersTitle">Operations Manager</h6>
+                <button class="contact-btn">Contact</button>
+                <button class="projects-btn">View Projects</button>
+            <div class="background"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clients">
+        <div class="clientCard">
+            <img class="logo" src="https://picsum.photos/60">
+            <h6 class="company">Lorem, ipsum dolor.</h6>
+        </div>
+        <div class="clientCard">
+            <img class="logo" src="https://picsum.photos/59">
+            <h6 class="company">Lorem, ipsum dolor.</h6>
+        </div>
+        <div class="clientCard">
+            <img class="logo" src="https://picsum.photos/58">
+            <h6 class="company">Lorem, ipsum dolor.</h6>
+        </div>
+        <div class="clientCard">
+            <img class="logo" src="https://picsum.photos/57">
+            <h6 class="company">Lorem, ipsum dolor.</h6>
+        </div>
+        <div class="clientCard">
+            <img class="logo" src="https://picsum.photos/56">
+            <h6 class="company">Lorem, ipsum dolor.</h6>
+        </div>
+        <div class="clientCard">
+            <img class="logo" src="https://picsum.photos/55">
+            <h6 class="company">Lorem, ipsum dolor.</h6>
+        </div>
+    </div>
+<script src="../src/index.js"></script>
+</body>
+</html>

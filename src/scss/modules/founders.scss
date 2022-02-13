@@ -1,0 +1,84 @@
+.foundersCard * {
+  z-index: 5;
+}
+
+.foundersImage {
+  border-radius: 180px;
+  left: 257px;
+  z-index: 5;
+}
+
+.foundersName {
+  position: relative;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+}
+
+.foundersTitle {
+  font-size: 18px;
+}
+
+.contact-btn {
+  background-color: #f2f2f5;
+  border-color: #ec1c24;
+  border-width: 3px;
+  width: 217px;
+  height: 56px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.projects-btn {
+  background-color: #ec1c24;
+  width: 217px;
+  height: 56px;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.founders {
+  position: relative;
+  background-color: #131d3b;
+  width: 100%;
+  height: 800px;
+  margin-top: 30px;
+}
+
+.foundersHeader {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 30px;
+  font-weight: 500px;
+}
+
+.background {
+  position: absolute;
+  background-color: #f2f2f5;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  z-index: 4 !important;
+  left: 0;
+  top: 20%;
+}
+
+.foundersCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  z-index: 5;
+  gap: 30px;
+}

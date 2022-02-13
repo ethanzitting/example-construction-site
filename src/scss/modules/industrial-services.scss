@@ -1,0 +1,63 @@
+.industialServices > h2 {
+  display: block;
+  font-size: 42px;
+  margin: 30px;
+  color: #131d3b;
+  text-align: center;
+}
+
+.sliderNav {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex: 1 2;
+}
+
+.blackCard {
+  display: flex;
+  background-color: #131d3b;
+  font-size: 20px;
+  color: white;
+  flex: 50%;
+  margin-right: 10px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.orangeCard {
+  display: flex;
+  background-color: #ec1c24;
+  flex-grow: 2;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.articals {
+  display: flex;
+  justify-content: space-around;
+}
+
+.articalCard {
+  width: 283px;
+  height: 144px;
+  color: #131d3b;
+  margin: 30px;
+}
+
+.articalCard > h3 {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.artical-expand {
+  display: block;
+  color: #ec1c24;
+  text-decoration: none;
+  margin-top: 24px;
+  text-transform: uppercase;
+}
