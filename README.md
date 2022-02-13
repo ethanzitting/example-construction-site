@@ -4,7 +4,8 @@ Requirements:
 Installation:
  - Copy the repo to your machine.
  - Install the dependencies with `npm install`
- - When changing javascript or scss, run `npx webpack build` to see it in the browser.
+ - Start a watcher on your files with `npx mix watch`
+ - That's it!
 
 Designs: https://www.figma.com/file/o3MgfWli348q2FoxGDp8PM/Construction-Site-(Community)?node-id=1%3A1613
 
