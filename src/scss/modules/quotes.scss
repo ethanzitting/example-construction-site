@@ -1,0 +1,27 @@
+.quotes-wrapper {
+    display: flex;
+    // width: 50%;
+}
+
+.quotes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.promises {
+    flex: 1;
+}
+
+.quotes-title {
+    text-align: center;
+    font-family: Galano Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 65px;
+    color: #131d3b;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
