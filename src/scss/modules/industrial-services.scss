@@ -1,4 +1,4 @@
-@use "variables.scss";
+@use "../utilities/variables.scss";
 
 .industialServices > h2 {
   display: block;
@@ -19,7 +19,7 @@
 
 .blackCard {
   display: flex;
-  background-color: black;
+  background-color: $black-color;
   font-size: 20px;
   color: white;
   flex: 50%;
