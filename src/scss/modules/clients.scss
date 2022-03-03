@@ -1,19 +1,35 @@
 .clients * {
   z-index: 1;
+  margin-bottom: 30px;
 }
 
+.client-header {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
 .clients {
   display: flex;
   justify-content: space-around;
   background-color: black;
+  gap: 10px;
 }
+
 .clientCard {
   display: flex;
   flex-direction: column;
-  width: 140px;
-  height: 180px;
+  width: 150px;
+  height: 200px;
   background-color: white;
   justify-content: center;
+  text-align: center;
+}
+
+.company {
+  text-align: center;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .logo {
