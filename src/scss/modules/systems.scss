@@ -1,0 +1,71 @@
+.systems {
+    width: 100vw;
+    height: 482.54px;
+    background: #131D3B;
+    align-content: center;
+    background-image: url("https://picsum.photos/1440/630");
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .systems-title {
+    font-family: Galano Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #F2F3F5;
+  }
+
+  .flex-container {
+    display: flex;
+    width: 80vw;
+}
+
+  .system-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;  
+    background: #F2F3F5;
+    width: 12vw;
+    height: 12vw;
+    margin: auto;
+  }
+
+  .systems-content {
+    margin: 0 10vw;
+    z-index: 2;
+  }
+
+  .shadow {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+  }
+
+  .systems-header {
+    font-family: Galano Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #131D3B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+  }
+
+  .system-image {
+   margin: 0 auto;
+
+  }

@@ -1,0 +1,452 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.jumbotron {
+  width: 100vw;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+  color: #F2F3F5;
+}
+.jumbotron img {
+  width: auto;
+  height: 100%;
+  z-index: 1;
+}
+.jumbotron .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.jumbotron .text-block {
+  position: absolute;
+  top: calc(50% - 98px);
+  left: calc(50% - 300px);
+  z-index: 3;
+  height: 196px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 81px;
+  text-align: center;
+  color: #F2F3F5;
+}
+.jumbotron .text-content {
+  margin-bottom: 80px;
+}
+.jumbotron button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 36px;
+  width: 167px;
+  height: 56px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  border: none;
+  cursor: pointer;
+  background: #EC1C24;
+}
+
+.mainNav {
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex: auto 2 auto;
+  line-height: 5px;
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 40vw;
+  flex-shrink: 50%;
+  flex-grow: 100%;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-family: Galano Grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90%;
+  line-height: 25px;
+  color: #131d3b;
+  font: 16px;
+}
+
+.navLinks a:hover {
+  color: #ec1c24;
+}
+
+.Title {
+  display: flex;
+  padding: -50px;
+  font-size: 200%;
+  align-items: center;
+  justify-content: center;
+  margin: -10;
+  color: black;
+  padding-bottom: 0;
+  text-decoration: none !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+.subTitle {
+  letter-spacing: 1px;
+  font-style: 15px;
+  font-size: 20px;
+  margin: 12px;
+  padding: 10px 0;
+  margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a5a7aa;
+  position: absolute;
+}
+
+.getQuote {
+  display: flex;
+  position: static;
+  border: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec1c24;
+  color: #f2f2f5;
+  width: 167px;
+  height: 56px;
+  left: 986px;
+  top: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 800;
+  font-style: 18px;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .Title {
+    display: flex;
+  }
+}
+.foundersCard * {
+  z-index: 5;
+}
+
+.foundersImage {
+  border-radius: 180px;
+  left: 257px;
+  z-index: 5;
+}
+
+.foundersName {
+  position: relative;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+}
+
+.foundersTitle {
+  font-size: 18px;
+}
+
+.contact-btn {
+  background-color: #f2f2f5;
+  border-color: #ec1c24;
+  border-width: 3px;
+  width: 217px;
+  height: 56px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.projects-btn {
+  background-color: #ec1c24;
+  width: 217px;
+  height: 56px;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.founders {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  margin-top: 30px;
+}
+
+.foundersHeader {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 30px;
+  font-weight: 500px;
+}
+
+.background {
+  position: absolute;
+  background-color: #f2f2f5;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  z-index: 4 !important;
+  left: 0;
+  top: 20%;
+}
+
+.foundersCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  z-index: 5;
+  gap: 30px;
+}
+
+.clients * {
+  z-index: 1;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.clientCard {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 180px;
+  background-color: white;
+  justify-content: center;
+}
+
+.logo {
+  border-radius: 500px;
+  align-self: center;
+}
+
+.industialServices > h2 {
+  display: block;
+  font-size: 42px;
+  margin: 30px;
+  color: black;
+  text-align: center;
+}
+
+.sliderNav {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex: 1 2;
+}
+
+.blackCard {
+  display: flex;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  flex: 50%;
+  margin-right: 10px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.orangeCard {
+  display: flex;
+  background-color: #ec1c24;
+  flex-grow: 2;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.articals {
+  display: flex;
+  justify-content: space-around;
+}
+
+.articalCard {
+  width: 283px;
+  height: 144px;
+  color: black;
+  margin: 30px;
+}
+
+.articalCard > h3 {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.artical-expand {
+  display: block;
+  color: #ec1c24;
+  text-decoration: none;
+  margin-top: 24px;
+  text-transform: uppercase;
+}
+
+.systems {
+  width: 100vw;
+  height: 482.54px;
+  background: #131D3B;
+  align-content: center;
+  background-image: url("https://picsum.photos/1440/630");
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.systems-title {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 56px;
+  text-align: center;
+  color: #F2F3F5;
+}
+
+.flex-container {
+  display: flex;
+  width: 80vw;
+}
+
+.system-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #F2F3F5;
+  width: 12vw;
+  height: 12vw;
+  margin: auto;
+}
+
+.systems-content {
+  margin: 0 10vw;
+  z-index: 2;
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.systems-header {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #131D3B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.system-image {
+  margin: 0 auto;
+}
