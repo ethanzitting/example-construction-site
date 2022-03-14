@@ -450,3 +450,73 @@ a {
 .system-image {
   margin: 0 auto;
 }
+
+.project-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "title title title title" "project1 project2 project3 project4";
+}
+
+.project {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  color: #F2F3F5;
+  padding-left: 25px;
+}
+
+.project-name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+.project-location {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.project-details {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.project1 {
+  grid-area: project1;
+  background-image: url("https://picsum.photos/1440/630");
+}
+
+.project2 {
+  grid-area: project2;
+  background-image: url("https://picsum.photos/1440/630");
+}
+
+.project3 {
+  grid-area: project3;
+  background-image: url("https://picsum.photos/1440/630");
+}
+
+.project4 {
+  grid-area: project4;
+  background-image: url("https://picsum.photos/1440/630");
+}
+
+.project-title {
+  grid-area: title;
+  height: 80px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #131D3B;
+  position: relative;
+  top: 25px;
+  left: 100px;
+}
+
+hr {
+  width: 85%;
+}
