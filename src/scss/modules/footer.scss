@@ -1,6 +1,64 @@
-footer {
+.footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: black;
   color: white;
+  width: 100%;
+  flex: 30% 30% 30%;
+}
+
+.title {
+  display: block;
+  font-size: 40px;
+  height: auto;
+  margin-top: 0;
+}
+
+.sub-title {
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  font-size: 20px;
+  width: 40%;
+  justify-content: space-between;
+  height: 100%;
+  gap: 20px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.index-L {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+  font-size: 22px;
+}
+
+.index-R {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+  font-size: 22px;
+}
+
+.qoute {
+  width: 15%;
+  border: none;
+  background-color: orangered;
+  font-size: 20px;
+  color: white;
+  font-weight: 800;
 }
