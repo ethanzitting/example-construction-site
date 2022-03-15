@@ -543,7 +543,6 @@ hr {
   background-color: black;
   color: white;
   width: 100%;
-  flex: 30% 30% 30%;
 }
 
 .title {
@@ -573,33 +572,38 @@ hr {
 .contacts {
   display: flex;
   flex-direction: row;
-  margin: 30px;
+  width: 100%;
   font-size: 20px;
 }
 
 .index-L {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 15px;
   list-style: none;
   font-size: 22px;
+  width: 50%;
+  justify-content: center;
 }
 
 .index-R {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 15px;
   list-style: none;
   font-size: 22px;
+  justify-content: center;
+  width: 50%;
 }
 
 .qoute {
-  width: 15%;
+  width: 60%;
   border: none;
   background-color: orangered;
   font-size: 20px;
   color: white;
   font-weight: 800;
+  text-align: center;
 }
 
 .quotes-wrapper {
